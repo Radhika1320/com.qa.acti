@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-30T00:23:56 PDT" name="Default suite" finished-at="2023-04-30T00:24:36 PDT" duration-ms="40143">
+    <groups>
+    </groups>
+    <test started-at="2023-04-30T00:23:56 PDT" name="Default test" finished-at="2023-04-30T00:24:36 PDT" duration-ms="40143">
+      <class name="com.acti.testcase.LoginPageTests">
+        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:23:56 PDT" name="preTest" finished-at="2023-04-30T00:24:05 PDT" duration-ms="9285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method signature="testForgotPasswordDisplayed()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:05 PDT" name="testForgotPasswordDisplayed" finished-at="2023-04-30T00:24:05 PDT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:05 PDT" name="tearDown" finished-at="2023-04-30T00:24:05 PDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:05 PDT" name="preTest" finished-at="2023-04-30T00:24:13 PDT" duration-ms="7346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method signature="testLogin()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:13 PDT" name="testLogin" finished-at="2023-04-30T00:24:13 PDT" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:13 PDT" name="tearDown" finished-at="2023-04-30T00:24:13 PDT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:13 PDT" name="preTest" finished-at="2023-04-30T00:24:19 PDT" duration-ms="5438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method signature="testLoginInvalidCredentials()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:19 PDT" name="testLoginInvalidCredentials" finished-at="2023-04-30T00:24:22 PDT" duration-ms="3281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:22 PDT" name="tearDown" finished-at="2023-04-30T00:24:22 PDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:22 PDT" name="preTest" finished-at="2023-04-30T00:24:28 PDT" duration-ms="5851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method signature="testLoginPageTitle()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:28 PDT" name="testLoginPageTitle" finished-at="2023-04-30T00:24:28 PDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:28 PDT" name="tearDown" finished-at="2023-04-30T00:24:28 PDT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preTest()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:28 PDT" name="preTest" finished-at="2023-04-30T00:24:36 PDT" duration-ms="7453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method signature="testactImageDisplayed()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:36 PDT" name="testactImageDisplayed" finished-at="2023-04-30T00:24:36 PDT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testactImageDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testcase.LoginPageTests@3c22fc4c]" started-at="2023-04-30T00:24:36 PDT" name="tearDown" finished-at="2023-04-30T00:24:36 PDT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.acti.testcase.LoginPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
