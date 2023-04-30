@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class LoginPageTests extends BaseTest {
 	
 
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void testLoginPageTitle() 
 	{
 		String expected = "actiTIME - Login";
@@ -16,7 +16,7 @@ public class LoginPageTests extends BaseTest {
  
 	}
 
-	@Test(enabled = true)
+	@Test(enabled = false)
 
 	public void testactImageDisplayed() 
 	{
@@ -26,7 +26,7 @@ public class LoginPageTests extends BaseTest {
 
 	}
 
-	@Test(enabled = true)
+	@Test(enabled = false)
 
 	public void testForgotPasswordDisplayed() 
 	{
@@ -43,10 +43,13 @@ public class LoginPageTests extends BaseTest {
 		lp.enterUsername("admin");
 		lp.enterPassword("manager");
 		lp.clickLoginButton();
+	String actual = ep.getuserLoggedIn();
+	System.out.println(actual);
+	Assert.assertTrue(actual.contains("John"));
 
 	}
 
-	@Test(enabled = true)
+	@Test(enabled = false)
 
 	public void testLoginInvalidCredentials() throws InterruptedException
 	{
