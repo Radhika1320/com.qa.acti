@@ -43,7 +43,7 @@ public String getuserLoggedIn()
 }
 public void clickTaskmenu()
 {
-	
+	menuTask.click();
 }
 
 }
